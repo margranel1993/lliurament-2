@@ -1,0 +1,19 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/UI/NewUSSFile.uss?fileID=7433441132597879392&amp;guid=3ea1cc0e114fd7943bbbbb90d9807bdc&amp;type=3#NewUSSFile" />
+    <ui:VisualElement name="contenedor" class="contenedor" style="flex-grow: 1; flex-direction: row-reverse; justify-content: center;">
+        <ui:VisualElement name="derecha" class="derecha" style="flex-grow: 1; background-color: rgba(180, 139, 19, 0);" />
+        <ui:VisualElement name="izquierda" class="izquierda" style="flex-grow: 1; max-width: 400px; min-width: 300px; height: 100%; background-color: rgba(0, 0, 0, 0.8); justify-content: space-between;">
+            <ui:VisualElement name="logo" class="logo" style="flex-grow: 1; max-width: 400%; max-height: 25%; background-image: url(&quot;project://database/Assets/sprites/task2/blink.tif?fileID=2800000&amp;guid=0ea3abaac27e5614297704f0e1068573&amp;type=3#blink&quot;); margin-top: 40px; -unity-background-image-tint-color: rgb(245, 245, 245);" />
+            <ui:VisualElement name="botones" class="botones" style="flex-grow: 1; max-height: 25%;">
+                <ui:Button text="PLAY" parse-escape-sequences="true" display-tooltip-when-elided="true" name="PLAY" class="boton-menu" style="width: 100%; position: absolute; left: -5px; background-color: rgb(232, 186, 5); -unity-font-style: bold; font-size: 30px; border-top-width: 0; border-right-width: 0; border-bottom-width: 0; border-left-width: 0; top: 0; max-width: 400%; height: 20%;" />
+                <ui:Button text="OPTIONS" parse-escape-sequences="true" display-tooltip-when-elided="true" name="OPTIONS" class="boton-menu boton-menu-OPTIONS" style="width: 100%; position: absolute; left: -3px; background-color: rgb(232, 186, 5); -unity-font-style: bold; font-size: 30px; border-top-width: 0; border-right-width: 0; border-bottom-width: 0; border-left-width: 0; top: 57px; height: 20%;" />
+                <ui:Button text="CREDITS" parse-escape-sequences="true" display-tooltip-when-elided="true" name="CREDITS" class="boton-menu boton-menu-OPTIONS boton-menu-CREDITS" style="width: 100%; position: absolute; left: -2px; background-color: rgb(232, 186, 5); -unity-font-style: bold; font-size: 30px; border-top-width: 0; border-right-width: 0; border-bottom-width: 0; border-left-width: 0; top: 109px; height: 20%;" />
+                <ui:Button text="QUIT" parse-escape-sequences="true" display-tooltip-when-elided="true" name="QUIT" class="boton-menu boton-menu-OPTIONS boton-menu-CREDITS" style="width: 100%; position: absolute; left: -3px; background-color: rgb(232, 186, 5); -unity-font-style: bold; font-size: 30px; border-top-width: 0; border-right-width: 0; border-bottom-width: 0; border-left-width: 0; top: 168px; height: 20%;" />
+            </ui:VisualElement>
+            <ui:VisualElement name="footer" class="footer" style="flex-grow: 1; max-height: 25%; background-color: rgba(28, 28, 28, 0);">
+                <ui:VisualElement style="flex-grow: 1;" />
+                <ui:Label tabindex="-1" text="90&apos;s ERA a game to have fun and nostalgia! 2025" parse-escape-sequences="true" display-tooltip-when-elided="true" />
+            </ui:VisualElement>
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>
